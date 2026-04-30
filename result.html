@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CISCE – Result</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="CISCE-removebg-preview.png">
+</head>
+
+<body>
+    
+
+<div class="header">
+    <h1>COUNCIL FOR THE INDIAN SCHOOL CERTIFICATE EXAMINATIONS</h1>
+    <p>ICSE / ISC Examination Results</p>
+</div>
+
+    <title>Result Table</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+
+    .container {
+        width: 700px;
+        margin: auto;
+        border: 1px solid #ccc;
+        padding: 15px;
+    }
+
+    .info {
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 1.8;
+    }
+
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+/* REMOVE full borders */
+th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border: none;
+}
+
+/* HEADER */
+th {
+    font-weight: 600;
+    border-bottom: 2px solid #000; /* only strong line */
+}
+
+/* NORMAL ROWS */
+td {
+    border-bottom: 1px solid #e5e5e5; /* light line like CISCE */
+}
+
+/* SECTION ROW (like ENGLISH, SCIENCE etc) */
+.section {
+    background-color: #f3f3f3;  /* light grey */
+    font-weight: bold;
+}
+
+.section td:nth-child(2),
+.section td:nth-child(3) {
+    font-weight: normal;
+}
+
+
+/* REMOVE blue shading completely */
+.sub {
+    padding-left: 30px;
+    background-color: transparent;  /* remove blue */
+}
+
+/* LAST ROW CLEAN */
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+    text-align: center;
+}
+
+    .section {
+        font-weight: bold;
+        background-color: #f5f5f5;
+    }
+
+    .sub {
+        padding-left: 25px;
+    }
+
+    .result {
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .result-row {
+    margin-top: 15px;
+}
+
+.result-text {
+    font-size: 16px;   /* smaller */
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pass {
+    color: green;
+}
+
+/* Common button style */
+.btn {
+    padding: 8px 14px;   /* reduced */
+    font-size: 14px;     /* reduced */
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+/* Print button (blue) */
+.print-btn {
+    background-color: #2f7f95;
+    color: #ffffff;
+}
+
+/* Back button (light grey) */
+.back-btn {
+    background-color: #e6e6e6;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+/* Hover */
+.print-btn:hover {
+    background-color: #256c80;
+}
+
+.back-btn:hover {
+    background-color: #d5d5d5;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+    text-align: center;
+}
+
+
+
+    
+</style>
+</head>
+
+<body>
+    
+    
+
+<div class="container">
+
+    <div class="info">
+        <div><b>Candidate Name</b>:&nbsp;&nbsp;&nbsp; SHLOK KADAM</div>
+        <div><b>Candidate ID</b>:&nbsp;&nbsp;&nbsp; 4589123</div>
+        <div><b>Date of Birth</b>:&nbsp;&nbsp;&nbsp; 09/11/2009</div>
+        <div><b>School</b>:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;OMKAR INTERNATIONAL SCHOOL, DOMBIVALI</div>
+    </div>
+
+    <table>
+        <th>Subject</th>
+        <th>Total Marks</th>
+         <th>Percentage Marks</th>
+
+        <tr class="section">
+            <td>ENGLISH</td>
+            <td></td>
+            <td>96</td>
+        </tr>
+        <tr>
+            <td class="sub">ENGLISH LANGUAGE</td>
+            <td>096</td>
+        </tr>
+        <tr>
+            <td class="sub">LITERATURE IN ENGLISH</td>
+            <td>095</td>
+        </tr>
+
+        <tr class="section">
+            <td>MARATHI</td>
+            <td>090</td>
+            <td>90</td>
+        </tr>
+
+        <tr class="section">
+            <td>HISTORY, CIVICS &amp; GEOGRAPHY</td>
+            <td></td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td class="sub">HISTORY &amp; CIVICS</td>
+            <td>088</td>
+        </tr>
+        <tr>
+            <td class="sub">GEOGRAPHY</td>
+            <td>092</td>
+        </tr>
+
+        <tr class="section">
+            <td>MATHEMATICS</td>
+            <td>089</td>
+            <td>89</td>
+        </tr>
+
+        <tr class="section">
+            <td>SCIENCE</td>
+            <td></td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td class="sub">PHYSICS</td>
+            <td>094</td>
+        </tr>
+        <tr>
+            <td class="sub">CHEMISTRY</td>
+            <td>092</td>
+        </tr>
+        <tr>
+            <td class="sub">BIOLOGY</td>
+            <td>091</td>
+        </tr>
+
+        <tr class="section">
+            <td>COMPUTER APPLICATIONS</td>
+            <td>097</td> 
+            <td>97</td> 
+        </tr>
+
+    </table>
+
+    <div class="result-row">
+    <div class="result-text">
+        Result: <span class="pass">PASS</span>
+    </div>
+
+    <div class="buttons">
+        <button class="btn print-btn" onclick="window.print()">
+            🖨 Print Result
+        </button>
+
+        <button class="btn back-btn" onclick="history.back()">
+            ← Back
+        </button>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

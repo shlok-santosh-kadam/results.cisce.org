@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(242, 246, 247);
+  height: 84px;
+}
+
+.nav {
+  height: 88px;
+}
+
+.logo-img {
+  margin-left: 25px;
+  margin-top: 9px;
+}
+
+.title {
+  color: rgb(40, 121, 149);
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.dusra-heading {
+    color: rgb(83, 129, 148);
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 398px;
+    margin-right: 380px;
+    margin-top: 14px;
+}
+
+.details {
+  height: 452px;
+  width: 1533px;
+  /* border: 2px solid red; */
+  margin-top: 42px;
+  border: 2px solid black;
+}
+
+.course {
+  color: rgb(5, 87, 115);
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 74px;
+  margin-top: 12px;
+  margin-right: 1402px;
+}
+
+.course-box{
+  margin-left: 211px;
+  height: 30px;
+  width: 244px;
+  margin-top: -8px;
+
+}
+
+
+// chatpgt ka code 
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(242, 246, 247);
+  font-family: "PT Serif", serif;
+  color: #2f4f4f;
+}
+
+.nav {
+  height: 88px;
+  background-color: #f0f4f5;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  border-bottom: 2px solid #2f4f4f;
+}
+
+.logo-img img {
+  width: 100px;
+  height: 70px;
+}
+
+.title {
+  color: rgb(40, 121, 149);
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.dusra-heading {
+  color: rgb(83, 129, 148);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.details {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #2f4f4f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  background-color: #f4f4f4;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-result {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.show-result {
+  background-color: #2196F3;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
